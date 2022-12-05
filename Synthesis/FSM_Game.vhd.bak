@@ -1,0 +1,13 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity FSM_Game is
+port(
+
+);
+end;
+
+architecture one of FSM_Game is
+begin
+
+end;

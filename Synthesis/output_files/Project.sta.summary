@@ -1,0 +1,437 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'U2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -16.622
+TNS   : -686.243
+
+Type  : Slow 1200mV 85C Model Setup 'FSM_Game:U7|psR.s10l'
+Slack : -8.918
+TNS   : -297.202
+
+Type  : Slow 1200mV 85C Model Setup 'FSM_Game:U7|psR.EndG'
+Slack : -7.304
+TNS   : -296.473
+
+Type  : Slow 1200mV 85C Model Setup 'FSM_Game:U7|Timer2:T2|Generator:U|clkout'
+Slack : -6.230
+TNS   : -197.625
+
+Type  : Slow 1200mV 85C Model Setup 'clk_50'
+Slack : -5.611
+TNS   : -41.550
+
+Type  : Slow 1200mV 85C Model Setup 'CursorUnit:U4|MoveCursor:U2|Generator:U1|clkout'
+Slack : -5.363
+TNS   : -291.749
+
+Type  : Slow 1200mV 85C Model Setup 'FSM_Game:U7|Timer2:T3|Generator:U|clkout'
+Slack : -4.132
+TNS   : -118.853
+
+Type  : Slow 1200mV 85C Model Setup 'FSM_Game:U7|psB.s0'
+Slack : -3.731
+TNS   : -136.379
+
+Type  : Slow 1200mV 85C Model Setup 'FSM_Game:U7|Load'
+Slack : -1.463
+TNS   : -5.322
+
+Type  : Slow 1200mV 85C Model Setup 'FSM_Game:U7|Timer:T|Generator:Gen|clkout'
+Slack : -1.419
+TNS   : -8.514
+
+Type  : Slow 1200mV 85C Model Hold 'U2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.502
+TNS   : -0.502
+
+Type  : Slow 1200mV 85C Model Hold 'FSM_Game:U7|psB.s0'
+Slack : 0.156
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk_50'
+Slack : 0.275
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'FSM_Game:U7|psR.s10l'
+Slack : 0.335
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'FSM_Game:U7|Timer2:T2|Generator:U|clkout'
+Slack : 0.339
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'FSM_Game:U7|Timer2:T3|Generator:U|clkout'
+Slack : 0.347
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CursorUnit:U4|MoveCursor:U2|Generator:U1|clkout'
+Slack : 0.615
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'FSM_Game:U7|Timer:T|Generator:Gen|clkout'
+Slack : 0.615
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'FSM_Game:U7|Load'
+Slack : 0.816
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'FSM_Game:U7|psR.EndG'
+Slack : 1.143
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'FSM_Game:U7|Timer:T|Generator:Gen|clkout'
+Slack : -1.497
+TNS   : -8.982
+
+Type  : Slow 1200mV 85C Model Recovery 'FSM_Game:U7|Timer2:T3|Generator:U|clkout'
+Slack : -0.863
+TNS   : -23.724
+
+Type  : Slow 1200mV 85C Model Recovery 'FSM_Game:U7|Timer2:T2|Generator:U|clkout'
+Slack : -0.273
+TNS   : -1.320
+
+Type  : Slow 1200mV 85C Model Removal 'FSM_Game:U7|Timer2:T2|Generator:U|clkout'
+Slack : -0.214
+TNS   : -5.985
+
+Type  : Slow 1200mV 85C Model Removal 'FSM_Game:U7|Timer2:T3|Generator:U|clkout'
+Slack : 0.790
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'FSM_Game:U7|Timer:T|Generator:Gen|clkout'
+Slack : 1.965
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CursorUnit:U4|MoveCursor:U2|Generator:U1|clkout'
+Slack : -1.403
+TNS   : -89.792
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'FSM_Game:U7|Timer2:T2|Generator:U|clkout'
+Slack : -1.403
+TNS   : -46.299
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'FSM_Game:U7|Timer2:T3|Generator:U|clkout'
+Slack : -1.403
+TNS   : -46.299
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'FSM_Game:U7|Timer:T|Generator:Gen|clkout'
+Slack : -1.403
+TNS   : -8.418
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'FSM_Game:U7|psR.s10l'
+Slack : 0.374
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'FSM_Game:U7|psB.s0'
+Slack : 0.405
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'FSM_Game:U7|psR.EndG'
+Slack : 0.437
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'FSM_Game:U7|Load'
+Slack : 0.450
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'U2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 4.344
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk_50'
+Slack : 9.555
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'U2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -14.894
+TNS   : -577.692
+
+Type  : Slow 1200mV 0C Model Setup 'FSM_Game:U7|psR.s10l'
+Slack : -8.417
+TNS   : -275.145
+
+Type  : Slow 1200mV 0C Model Setup 'FSM_Game:U7|psR.EndG'
+Slack : -6.804
+TNS   : -272.735
+
+Type  : Slow 1200mV 0C Model Setup 'FSM_Game:U7|Timer2:T2|Generator:U|clkout'
+Slack : -5.717
+TNS   : -181.141
+
+Type  : Slow 1200mV 0C Model Setup 'clk_50'
+Slack : -5.524
+TNS   : -35.155
+
+Type  : Slow 1200mV 0C Model Setup 'CursorUnit:U4|MoveCursor:U2|Generator:U1|clkout'
+Slack : -4.786
+TNS   : -263.739
+
+Type  : Slow 1200mV 0C Model Setup 'FSM_Game:U7|Timer2:T3|Generator:U|clkout'
+Slack : -3.651
+TNS   : -107.943
+
+Type  : Slow 1200mV 0C Model Setup 'FSM_Game:U7|psB.s0'
+Slack : -3.495
+TNS   : -125.986
+
+Type  : Slow 1200mV 0C Model Setup 'FSM_Game:U7|Load'
+Slack : -1.307
+TNS   : -4.734
+
+Type  : Slow 1200mV 0C Model Setup 'FSM_Game:U7|Timer:T|Generator:Gen|clkout'
+Slack : -1.230
+TNS   : -7.380
+
+Type  : Slow 1200mV 0C Model Hold 'U2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.718
+TNS   : -0.718
+
+Type  : Slow 1200mV 0C Model Hold 'clk_50'
+Slack : 0.050
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'FSM_Game:U7|psB.s0'
+Slack : 0.163
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'FSM_Game:U7|psR.s10l'
+Slack : 0.230
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'FSM_Game:U7|Timer2:T2|Generator:U|clkout'
+Slack : 0.304
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'FSM_Game:U7|Timer2:T3|Generator:U|clkout'
+Slack : 0.311
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CursorUnit:U4|MoveCursor:U2|Generator:U1|clkout'
+Slack : 0.561
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'FSM_Game:U7|Timer:T|Generator:Gen|clkout'
+Slack : 0.579
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'FSM_Game:U7|Load'
+Slack : 0.783
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'FSM_Game:U7|psR.EndG'
+Slack : 1.052
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'FSM_Game:U7|Timer:T|Generator:Gen|clkout'
+Slack : -1.305
+TNS   : -7.830
+
+Type  : Slow 1200mV 0C Model Recovery 'FSM_Game:U7|Timer2:T3|Generator:U|clkout'
+Slack : -0.742
+TNS   : -20.211
+
+Type  : Slow 1200mV 0C Model Recovery 'FSM_Game:U7|Timer2:T2|Generator:U|clkout'
+Slack : -0.169
+TNS   : -0.812
+
+Type  : Slow 1200mV 0C Model Removal 'FSM_Game:U7|Timer2:T2|Generator:U|clkout'
+Slack : -0.213
+TNS   : -5.937
+
+Type  : Slow 1200mV 0C Model Removal 'FSM_Game:U7|Timer2:T3|Generator:U|clkout'
+Slack : 0.776
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'FSM_Game:U7|Timer:T|Generator:Gen|clkout'
+Slack : 1.816
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CursorUnit:U4|MoveCursor:U2|Generator:U1|clkout'
+Slack : -1.403
+TNS   : -89.792
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'FSM_Game:U7|Timer2:T2|Generator:U|clkout'
+Slack : -1.403
+TNS   : -46.299
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'FSM_Game:U7|Timer2:T3|Generator:U|clkout'
+Slack : -1.403
+TNS   : -46.299
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'FSM_Game:U7|Timer:T|Generator:Gen|clkout'
+Slack : -1.403
+TNS   : -8.418
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'FSM_Game:U7|psR.s10l'
+Slack : 0.335
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'FSM_Game:U7|psB.s0'
+Slack : 0.345
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'FSM_Game:U7|psR.EndG'
+Slack : 0.453
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'FSM_Game:U7|Load'
+Slack : 0.480
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'U2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 4.320
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk_50'
+Slack : 9.605
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'U2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -7.258
+TNS   : -195.762
+
+Type  : Fast 1200mV 0C Model Setup 'FSM_Game:U7|psR.s10l'
+Slack : -3.557
+TNS   : -104.004
+
+Type  : Fast 1200mV 0C Model Setup 'clk_50'
+Slack : -2.816
+TNS   : -16.669
+
+Type  : Fast 1200mV 0C Model Setup 'FSM_Game:U7|psR.EndG'
+Slack : -2.566
+TNS   : -100.636
+
+Type  : Fast 1200mV 0C Model Setup 'FSM_Game:U7|Timer2:T2|Generator:U|clkout'
+Slack : -2.218
+TNS   : -69.441
+
+Type  : Fast 1200mV 0C Model Setup 'CursorUnit:U4|MoveCursor:U2|Generator:U1|clkout'
+Slack : -1.531
+TNS   : -85.048
+
+Type  : Fast 1200mV 0C Model Setup 'FSM_Game:U7|Timer2:T3|Generator:U|clkout'
+Slack : -1.215
+TNS   : -34.841
+
+Type  : Fast 1200mV 0C Model Setup 'FSM_Game:U7|psB.s0'
+Slack : -1.053
+TNS   : -28.613
+
+Type  : Fast 1200mV 0C Model Setup 'FSM_Game:U7|Timer:T|Generator:Gen|clkout'
+Slack : -0.019
+TNS   : -0.114
+
+Type  : Fast 1200mV 0C Model Setup 'FSM_Game:U7|Load'
+Slack : 0.062
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'U2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.324
+TNS   : -0.324
+
+Type  : Fast 1200mV 0C Model Hold 'FSM_Game:U7|psB.s0'
+Slack : -0.038
+TNS   : -0.038
+
+Type  : Fast 1200mV 0C Model Hold 'clk_50'
+Slack : 0.133
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'FSM_Game:U7|Timer2:T2|Generator:U|clkout'
+Slack : 0.147
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'FSM_Game:U7|Timer2:T3|Generator:U|clkout'
+Slack : 0.151
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'FSM_Game:U7|Load'
+Slack : 0.238
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'FSM_Game:U7|Timer:T|Generator:Gen|clkout'
+Slack : 0.242
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CursorUnit:U4|MoveCursor:U2|Generator:U1|clkout'
+Slack : 0.244
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'FSM_Game:U7|psR.s10l'
+Slack : 0.342
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'FSM_Game:U7|psR.EndG'
+Slack : 0.435
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'FSM_Game:U7|Timer:T|Generator:Gen|clkout'
+Slack : -0.046
+TNS   : -0.276
+
+Type  : Fast 1200mV 0C Model Recovery 'FSM_Game:U7|Timer2:T3|Generator:U|clkout'
+Slack : 0.017
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'FSM_Game:U7|Timer2:T2|Generator:U|clkout'
+Slack : 0.083
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'FSM_Game:U7|Timer2:T2|Generator:U|clkout'
+Slack : -0.092
+TNS   : -2.561
+
+Type  : Fast 1200mV 0C Model Removal 'FSM_Game:U7|Timer2:T3|Generator:U|clkout'
+Slack : 0.448
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'FSM_Game:U7|Timer:T|Generator:Gen|clkout'
+Slack : 0.780
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CursorUnit:U4|MoveCursor:U2|Generator:U1|clkout'
+Slack : -1.000
+TNS   : -64.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'FSM_Game:U7|Timer2:T2|Generator:U|clkout'
+Slack : -1.000
+TNS   : -33.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'FSM_Game:U7|Timer2:T3|Generator:U|clkout'
+Slack : -1.000
+TNS   : -33.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'FSM_Game:U7|Timer:T|Generator:Gen|clkout'
+Slack : -1.000
+TNS   : -6.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'FSM_Game:U7|psB.s0'
+Slack : 0.303
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'FSM_Game:U7|psR.EndG'
+Slack : 0.384
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'FSM_Game:U7|psR.s10l'
+Slack : 0.385
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'FSM_Game:U7|Load'
+Slack : 0.427
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'U2|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 4.378
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk_50'
+Slack : 9.137
+TNS   : 0.000
+
+------------------------------------------------------------

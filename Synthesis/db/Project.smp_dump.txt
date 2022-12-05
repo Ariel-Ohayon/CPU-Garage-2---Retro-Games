@@ -1,0 +1,38 @@
+
+State Machine - |Project|FSM_Game:U7|psB
+Name psB.EndG psB.s11 psB.s11l psB.s10 psB.s10l psB.s9 psB.s9l psB.s8 psB.s7 psB.s6 psB.s5 psB.s4 psB.s3 psB.s2 psB.s1 psB.s0 
+psB.s0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+psB.s1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+psB.s2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+psB.s3 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+psB.s4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+psB.s5 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+psB.s6 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+psB.s7 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+psB.s8 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+psB.s9l 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+psB.s9 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+psB.s10l 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+psB.s10 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+psB.s11l 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+psB.s11 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+psB.EndG 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |Project|FSM_Game:U7|psR
+Name psR.EndG psR.s11 psR.s11l psR.s10 psR.s10l psR.s9 psR.s9l psR.s8 psR.s7 psR.s6 psR.s5 psR.s4 psR.s3 psR.s2 psR.s1 psR.s0 
+psR.s0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+psR.s1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+psR.s2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+psR.s3 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+psR.s4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+psR.s5 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+psR.s6 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+psR.s7 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+psR.s8 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+psR.s9l 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+psR.s9 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+psR.s10l 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+psR.s10 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+psR.s11l 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+psR.s11 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+psR.EndG 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

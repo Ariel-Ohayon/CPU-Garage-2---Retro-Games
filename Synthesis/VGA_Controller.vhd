@@ -1,0 +1,152 @@
+--This VGA Module Works with 108[KHz] Pixel Clk.
+--Resolution:   1280[Horizontal]x1024[Vertical] (1688[Horizontal]x1066[Vertical])
+--Refresh Rate: 60[Hz]
+
+-- VGA_Sync Component
+
+library ieee;
+use ieee.std_Logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+entity VGA_Sync is
+port(
+rst,clk: in  std_logic;
+En:  		out std_logic;								-- En Active High
+X,Y:		out std_logic_vector(31 downto 0));
+end;
+
+architecture one of VGA_Sync is
+
+signal CountX,CountY: std_logic_vector(31 downto 0):=(others => '0');
+
+begin
+process(rst,clk)
+begin
+if (rst = '0') then
+	En <= '0';
+	CountX <= (others => '0');
+	CountY <= (others => '0');
+elsif (clk 'event and clk = '1') then
+	if (((CountX < 1280) OR (CountX = 1280)) AND ((CountY < 1024) OR (CountY = 1024))) then -- In Frame
+		En <= '1';
+	else
+		En <= '0';
+	end if;
+	if (CountX = 1688) then
+		CountX <= (others => '0');
+		if (CountY = 1066) then
+			CountY <= (others => '0');
+		else
+			CountY <= CountY + 1;
+		end if;
+	else
+		CountX <= CountX + 1;
+	end if;
+end if;
+end process;
+X <= CountX;
+Y <= CountY;
+end;
+
+-- VGA_Color Component
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity VGA_Color is
+port(
+En: in std_logic;
+inR,inG,inB:    in  std_logic_vector(3 downto 0);
+outR,outG,outB: out std_logic_vector(3 downto 0));
+end;
+
+architecture one of VGA_Color is
+signal sEn: std_logic_vector(3 downto 0);
+begin
+sEn <= (others => En);
+outR <= sEn AND inR;
+outG <= sEn AND inG;
+outB <= sEn AND inB;
+end;
+
+-- VGA_Gen_Signal Component
+
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+entity VGA_Gen_Signal is
+port(
+X,Y: in std_logic_vector(31 downto 0);
+H,V: out std_logic);
+end;
+
+architecture one of VGA_Gen_Signal is
+begin
+process(X,Y)
+begin
+
+if ((X > 1327) and (X < 1439)) then
+	H <= '0';
+else
+	H <= '1';
+end if;
+
+if ((Y > 1024) and (Y < 1029)) then
+	V <= '0';
+else
+	V <= '1';
+end if;
+
+end process;
+end;
+
+-- VGA_Controller Component
+
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity VGA_Controller is
+port(
+inR,inG,inB:    in  std_logic_vector(3  downto 0);
+rst,clk_108:    in std_logic;
+outR,outG,outB: out std_logic_vector(3  downto 0);
+X,Y:				 out std_logic_vector(31 downto 0);
+H_Sync,V_Sync:  out std_logic);
+end;
+
+architecture one of VGA_Controller is
+
+-- Components --
+component VGA_Color
+port(
+En: 				 in  std_logic;
+inR,inG,inB:    in  std_logic_vector(3 downto 0);
+outR,outG,outB: out std_logic_vector(3 downto 0));
+end component;
+
+component VGA_Sync
+port(
+rst,clk: in  std_logic;
+En:  		out std_logic;								-- En Active High
+X,Y:		out std_logic_vector(31 downto 0));
+end component;
+
+component VGA_Gen_Signal
+port(
+X,Y: in std_logic_vector(31 downto 0);
+H,V: out std_logic);
+end component;
+-- Components --
+
+-- Signals --
+signal En:    std_logic;
+signal sX,sY: std_logic_vector(31 downto 0);
+-- Signals --
+
+begin
+U1: VGA_Color 		 port map (En,inR,inG,inB,outR,outG,outB);
+U2: VGA_Sync  		 port map (rst,clk_108,En,sX,sY);
+U3: VGA_Gen_Signal port map (sX,sY,H_Sync,V_Sync);
+X <= sX;
+Y <= sY;
+end;

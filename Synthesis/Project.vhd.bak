@@ -1,0 +1,39 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity Project is
+port(
+rst,clk_50: 	in  std_logic;
+R,G,B: 			out std_logic_vector(3 downto 0);
+H_Sync,V_Sync: out std_logic);
+end;
+
+architecture one of Project is
+
+-- Components --
+component VGA_Controller
+port(
+inR,inG,inB:    in  std_logic_vector(3  downto 0);
+rst,clk_108:    in std_logic;
+outR,outG,outB: out std_logic_vector(3  downto 0);
+X,Y:				 out std_logic_vector(10 downto 0);
+H_Sync,V_Sync:  out std_logic);
+end component;
+
+component PLL
+	PORT
+	(
+		areset		: IN  STD_LOGIC  := '0';
+		inclk0		: IN  STD_LOGIC  := '0';
+		c0				: OUT STD_LOGIC);
+END component;
+-- Components --
+
+-- signals --
+signal clk_108: std_logic;
+-- signals --
+
+begin
+U1: VGA_Controller port map ((others => '0'),(others => '0'),(others => '0'),rst,clk_108,R,G,B,OPEN,OPEN,H_Sync,V_Sync);
+U2: PLL				 port map  (not rst,clk_50,clk_108);
+end;

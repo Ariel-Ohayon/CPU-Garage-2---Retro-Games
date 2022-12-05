@@ -1,0 +1,13 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity GeneratorRandom is
+port(
+
+);
+end;
+
+architecture one of RandomGenerator is
+begin
+
+end;

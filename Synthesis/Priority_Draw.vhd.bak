@@ -1,0 +1,13 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity Priority_Draw is
+port(
+
+);
+end;
+
+architecture one of Priority_Draw is
+begin
+
+end;

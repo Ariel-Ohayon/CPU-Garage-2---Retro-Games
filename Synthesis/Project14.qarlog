@@ -1,0 +1,28 @@
+Quartus Prime Archive log --	C:/Users/ariel/Desktop/CPUGARAGE-RETROGAMING/Part34/Synthesis/Project14.qarlog
+
+Archive:	C:/Users/ariel/Desktop/CPUGARAGE-RETROGAMING/Part34/Synthesis/Project14.qar
+Date:		Sat Nov 19 22:47:55 2022
+Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/ariel/Desktop/CPUGARAGE-RETROGAMING/Part34/Synthesis/Background.vhd
+C:/Users/ariel/Desktop/CPUGARAGE-RETROGAMING/Part34/Synthesis/CursorUnit.vhd
+C:/Users/ariel/Desktop/CPUGARAGE-RETROGAMING/Part34/Synthesis/FSM_Game.vhd
+C:/Users/ariel/Desktop/CPUGARAGE-RETROGAMING/Part34/Synthesis/Filter.vhd
+C:/Users/ariel/Desktop/CPUGARAGE-RETROGAMING/Part34/Synthesis/GAMEOVER.vhd
+C:/Users/ariel/Desktop/CPUGARAGE-RETROGAMING/Part34/Synthesis/Generator.vhd
+C:/Users/ariel/Desktop/CPUGARAGE-RETROGAMING/Part34/Synthesis/PLL.vhd
+C:/Users/ariel/Desktop/CPUGARAGE-RETROGAMING/Part34/Synthesis/Priority_Draw.vhd
+C:/Users/ariel/Desktop/CPUGARAGE-RETROGAMING/Part34/Synthesis/Project.qpf
+C:/Users/ariel/Desktop/CPUGARAGE-RETROGAMING/Part34/Synthesis/Project.qsf
+C:/Users/ariel/Desktop/CPUGARAGE-RETROGAMING/Part34/Synthesis/Project.vhd
+C:/Users/ariel/Desktop/CPUGARAGE-RETROGAMING/Part34/Synthesis/RandomGenerator.vhd
+C:/Users/ariel/Desktop/CPUGARAGE-RETROGAMING/Part34/Synthesis/Segment_Decoder.vhd
+C:/Users/ariel/Desktop/CPUGARAGE-RETROGAMING/Part34/Synthesis/TargetBlue.vhd
+C:/Users/ariel/Desktop/CPUGARAGE-RETROGAMING/Part34/Synthesis/TargetRed.vhd
+C:/Users/ariel/Desktop/CPUGARAGE-RETROGAMING/Part34/Synthesis/VGA_Controller.vhd
+c:/intelfpga_lite/18.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 17 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

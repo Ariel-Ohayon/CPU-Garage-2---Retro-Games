@@ -1,0 +1,35 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity TargetRed is
+port(
+clk_25: in  std_logic;
+Xpxl,Ypxl: 		 	  in  std_logic_vector(31 downto 0);
+RGB:		  		 	  out std_logic_vector(11 downto 0);
+drw:					  out std_logic);
+end;
+
+architecture one of TargetRed is
+
+component drawTargetRed
+port(
+clk: in std_logic;
+Xpxl,Ypxl: in std_logic_vector(31 downto 0);
+topX,topY: in std_logic_vector(31 downto 0);
+RGB: out std_logic_vector(11 downto 0);
+drw: out std_logic);
+end component;
+
+component MoveTargetRed
+port(
+clk,r,l,down,up: in std_logic;
+topX: out std_logic_vector(31 downto 0) := x"0000003C";
+topY: out std_logic_vector(31 downto 0) := x"0000001E");
+end component;
+
+signal sX,sY: std_logic_vector(31 downto 0);
+
+begin
+U1: drawTargetRed port map (clk_25,Xpxl,Ypxl,sX,sY,RGB,drw);
+U2: MoveTargetRed port map (clk_25,'1','1','1','1',sX,sY);
+end;
